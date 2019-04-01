@@ -1,0 +1,22 @@
+{
+  "name": "my-rn-webview",
+  "version": "1.0.0",
+  "description": "my-rn-webview",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "upgrade": "yarn upgrade my-rn-header-bar",
+    "clean": "yarn cache clean my-rn-header-bar"
+  },
+  "keywords": [
+    "ads"
+  ],
+  "author": "Quan Trinh Van",
+  "license": "Quan Trinh Van",
+  "nativePackage": true,
+  "dependencies": {
+    "my-rn-header-bar": "git+https://gitlab.com/react-native-my-libs/my-rn-header-bar.git"
+  },
+  "devDependencies": {},
+  "peerDependencies": {}
+}
