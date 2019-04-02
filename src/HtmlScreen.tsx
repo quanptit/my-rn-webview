@@ -10,7 +10,7 @@ const s = StyleUtils.getAllStyle();
 
 interface Props {
     ROOT_RESOURCE: string
-    dirCacheImage: string // thường là dirs.DocumentDir + "/download/"
+    dirCacheImage: string // thường là RNFetchBlob.fs.dirs.DocumentDir + "/download/"
     html: string
     headerColors: HeaderColors
     title: string

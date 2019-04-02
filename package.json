@@ -15,7 +15,8 @@
   "license": "Quan Trinh Van",
   "nativePackage": true,
   "dependencies": {
-    "my-rn-header-bar": "git+https://gitlab.com/react-native-my-libs/my-rn-header-bar.git"
+    "my-rn-header-bar": "git+https://gitlab.com/react-native-my-libs/my-rn-header-bar.git",
+    "react-native-autoheight-webview": "git+https://gitlab.com/ReactNativeLib/react-native-autoheight-webview.git"
   },
   "devDependencies": {},
   "peerDependencies": {}
