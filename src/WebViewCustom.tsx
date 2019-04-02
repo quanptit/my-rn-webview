@@ -90,7 +90,8 @@ function isCache(subPath: string, dirCache: string) {
 interface Props {
     htmlSource: WebViewHtmlSource
     ROOT_RESOURCE: string
-    dirCacheImage: string // thường là RNFetchBlob.fs.dirs.DocumentDir + "/download/"
+    /** thường là PathUtils.getCachedDownloadDir() ==> RNFetchBlob.fs.dirs.DocumentDir + "/download/"*/
+    dirCacheImage: string
     style?: StyleProp<ViewStyle>;
     isAutoHeightWebView?: boolean
     isFullWidth?: boolean

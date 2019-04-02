@@ -7,6 +7,7 @@ export declare function webProcessHtml(html: string, ROOT_RESOURCE: string, dirC
 interface Props {
     htmlSource: WebViewHtmlSource;
     ROOT_RESOURCE: string;
+    /** thường là PathUtils.getCachedDownloadDir() ==> RNFetchBlob.fs.dirs.DocumentDir + "/download/"*/
     dirCacheImage: string;
     style?: StyleProp<ViewStyle>;
     isAutoHeightWebView?: boolean;
