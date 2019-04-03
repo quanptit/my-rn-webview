@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import {DataDetectorTypes, StyleProp, ViewProps, ViewStyle, WebView, WebViewHtmlSource, WebViewProps, WebViewPropsAndroid, WebViewPropsIOS} from "react-native"
+import {DataDetectorTypes, StyleProp, ViewProps, ViewStyle, WebViewHtmlSource} from "react-native"
+import {WebView} from 'react-native-webview';
 import AutoHeightWebView from 'react-native-autoheight-webview';
 import Orientation from "react-native-orientation";
 import {CommonUtils, FileUtils, isIOS} from "my-rn-base-utils";
@@ -80,7 +81,7 @@ export async function webProcessHtml(html: string, ROOT_RESOURCE: string, dirCac
 }
 
 function isCache(subPath: string, dirCache: string) {
-    if (dirCache==null) return false;
+    if (dirCache == null) return false;
     return FileUtils.exists(dirCache + subPath);
 }
 

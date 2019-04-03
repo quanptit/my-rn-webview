@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import { StyleProp, ViewStyle } from 'react-native';
 import { HeaderColors } from "my-rn-header-bar";
 import { ComponentNoUpdate } from "my-rn-base-component";
