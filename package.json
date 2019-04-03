@@ -20,5 +20,7 @@
     "react-native-webview": "^5.6.0"
   },
   "devDependencies": {},
-  "peerDependencies": {}
+  "peerDependencies": {
+    "react-native-webview": "^5.6.0"
+  }
 }
