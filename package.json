@@ -16,7 +16,7 @@
   "nativePackage": true,
   "dependencies": {
     "my-rn-header-bar": "git+https://gitlab.com/react-native-my-libs/my-rn-header-bar.git",
-    "react-native-autoheight-webview": "git+https://gitlab.com/ReactNativeLib/react-native-autoheight-webview.git"
+    "react-native-autoheight-webview": "^1.1.1"
   },
   "devDependencies": {},
   "peerDependencies": {}

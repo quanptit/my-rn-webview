@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import {DataDetectorTypes, StyleProp, ViewProps, ViewStyle, WebView, WebViewHtmlSource, WebViewProps, WebViewPropsAndroid, WebViewPropsIOS} from "react-native"
-// @ts-ignore
 import AutoHeightWebView from 'react-native-autoheight-webview';
 import Orientation from "react-native-orientation";
 import {CommonUtils, FileUtils, isIOS} from "my-rn-base-utils";
