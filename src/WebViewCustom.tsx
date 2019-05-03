@@ -161,8 +161,10 @@ export class WebViewCustom extends Component<Props> {
         if (this.props.style)
             style.push(this.props.style);
 
+
         let webProps: any = {
             style: style, scalesPageToFit: !isIOS(),
+            originWhitelist: ['*'],
             source: {html: this.html, baseUrl: this.props.htmlSource.baseUrl || ""}
         };
 

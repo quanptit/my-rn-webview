@@ -128,6 +128,7 @@ export class WebViewCustom extends Component {
             style.push(this.props.style);
         let webProps = {
             style: style, scalesPageToFit: !isIOS(),
+            originWhitelist: ['*'],
             source: { html: this.html, baseUrl: this.props.htmlSource.baseUrl || "" }
         };
         if (this.props.isAutoHeightWebView) {
