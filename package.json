@@ -1,6 +1,6 @@
 {
   "name": "my-rn-webview",
-  "version": "1.0.0-1",
+  "version": "1.0.0-2",
   "description": "my-rn-webview",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,9 +22,10 @@
   "nativePackage": false,
   "dependencies": {
     "my-rn-header-bar": "^1.0.0",
-    "react-native-autoheight-webview": "^1.2.2",
-    "react-native-webview": "^7.4.3"
+    "react-native-autoheight-webview": "^1.2.2"
   },
   "devDependencies": {},
-  "peerDependencies": {}
+  "peerDependencies": {
+    "react-native-webview": "^7.4.3"
+  }
 }
