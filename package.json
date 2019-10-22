@@ -5,17 +5,23 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "upgrade": "yarn upgrade my-rn-header-bar",
-    "clean": "yarn cache clean my-rn-header-bar"
+    "install_npm": "yarn install",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ads"
+    "react-native"
   ],
   "author": "Quan Trinh Van",
-  "license": "Quan Trinh Van",
-  "nativePackage": true,
+  "license": "ISC",
+  "homepage": "https://github.com/quanptit/my-rn-webview",
+  "bugs": "https://github.com/quanptit/my-rn-webview/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quanptit/my-rn-webview.git"
+  },
+  "nativePackage": false,
   "dependencies": {
-    "my-rn-header-bar": "git+https://gitlab.com/react-native-my-libs/my-rn-header-bar.git"
+    "my-rn-header-bar": "^1.0.0"
   },
   "devDependencies": {},
   "peerDependencies": {
