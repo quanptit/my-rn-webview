@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { WebView } from "react-native";
+import { WebView } from "react-native-webview";
 import AutoHeightWebView from 'react-native-autoheight-webview';
 import Orientation from "react-native-orientation";
 import { CommonUtils, FileUtils, isIOS } from "my-rn-base-utils";

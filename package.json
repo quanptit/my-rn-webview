@@ -1,6 +1,6 @@
 {
   "name": "my-rn-webview",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "description": "my-rn-webview",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,10 +21,10 @@
   },
   "nativePackage": false,
   "dependencies": {
-    "my-rn-header-bar": "^1.0.0"
+    "my-rn-header-bar": "^1.0.0",
+    "react-native-autoheight-webview": "^1.2.2",
+    "react-native-webview": "^7.4.3"
   },
   "devDependencies": {},
-  "peerDependencies": {
-    "react-native-autoheight-webview": "git+https://gitlab.com/ReactNativeLib/react-native-autoheight-webview.git"
-  }
+  "peerDependencies": {}
 }

@@ -1,11 +1,12 @@
 import { Component } from 'react';
-import { DataDetectorTypes, StyleProp, ViewStyle, WebViewHtmlSource } from "react-native";
+import { DataDetectorTypes, StyleProp, ViewStyle } from "react-native";
+import { WebViewSourceHtml } from "react-native-webview/lib/WebViewTypes";
 /**
  * Thay thế [resource_server] bằng image base64 nếu nó đã được cache. Còn không thay thế bằng url online
  */
 export declare function webProcessHtml(html: string, ROOT_RESOURCE: string, dirCacheImage: string): Promise<string>;
 interface Props {
-    htmlSource: WebViewHtmlSource;
+    htmlSource: WebViewSourceHtml;
     ROOT_RESOURCE: string;
     /** thường là PathUtils.getCachedDownloadDir() ==> RNFetchBlob.fs.dirs.DocumentDir + "/download/"*/
     dirCacheImage: string;

@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
-import {DataDetectorTypes, StyleProp, ViewProps, ViewStyle, WebViewHtmlSource, WebView} from "react-native"
+import {DataDetectorTypes, StyleProp, ViewProps, ViewStyle,} from "react-native"
+import {WebView, WebViewProps} from "react-native-webview"
 import AutoHeightWebView from 'react-native-autoheight-webview';
 import Orientation from "react-native-orientation";
 import {CommonUtils, FileUtils, isIOS} from "my-rn-base-utils";
 import {VContainerLoad} from 'my-rn-base-component'
 import {isEqual} from "lodash";
+import {WebViewSourceHtml} from "react-native-webview/lib/WebViewTypes";
 
 //region process html before
 const BODY_TAG_PATTERN = /\<\/ *body\>/
@@ -87,7 +89,7 @@ function isCache(subPath: string, dirCache: string) {
 //endregion
 
 interface Props {
-    htmlSource: WebViewHtmlSource
+    htmlSource: WebViewSourceHtml
     ROOT_RESOURCE: string
     /** thường là PathUtils.getCachedDownloadDir() ==> RNFetchBlob.fs.dirs.DocumentDir + "/download/"*/
     dirCacheImage: string
